@@ -300,6 +300,9 @@ while running:
                 draw_critical_points_arr.clear()
                 mode = "add_point"
             if event.key == pygame.K_SPACE and not crtanje:
+                draw_poligon_arr.clear()
+                draw_critical_points_arr.clear()
+                poligon.clear()
                 critical_points.clear()
                 crtanje = 1
         elif event.type == pygame.MOUSEBUTTONDOWN:
